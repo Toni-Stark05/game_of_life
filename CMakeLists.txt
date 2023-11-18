@@ -4,8 +4,6 @@ project(game_of_life)
 set(CMAKE_CXX_STANDARD 17)
 
 add_executable(game_of_life main.cpp
-        src/core/Engine.cpp
-        src/core/Engine.h
         src/core/Window.cpp
         src/core/Window.h)
 
