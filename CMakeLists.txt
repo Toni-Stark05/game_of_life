@@ -5,7 +5,15 @@ set(CMAKE_CXX_STANDARD 17)
 
 add_executable(game_of_life main.cpp
         src/core/Window.cpp
-        src/core/Window.h)
+        src/core/Window.h
+        src/game/Game.cpp
+        src/game/Game.h
+        src/game/Board.cpp
+        src/game/Board.h
+        src/game/Render.cpp
+        src/game/Render.h
+        src/game/State.h
+)
 
 option(GAMEOFLIFE_VENDORED "Use vendored libraries" OFF)
 

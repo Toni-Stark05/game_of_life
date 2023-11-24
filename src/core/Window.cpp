@@ -1,7 +1,3 @@
-//
-// Created by tonistark on 11/12/23.
-//
-
 #include "Window.h"
 
 using namespace Core;

@@ -1,8 +1,7 @@
-#include "src/core/Window.h"
+#include "src/game/Game.h"
 
 int main() {
-    Core::Window* window = Core::Window::GetWindow();
-
-    window->exit();
+    Game::Game* game = new Game::Game(1280,1024);
+    game->GameCycle();
     return 0;
 }
